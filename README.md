@@ -18,5 +18,5 @@ As I said, I used an existing gcloud cluster. but if a new cluster in needed, th
 - kubectl apply -f monitoring-proj/manifests/setup/
 - kubectl apply -f monitoring-proj/manifests
 
- Grafana service port listens to port 3000. It is now accessible from outside the cluster by SERVICE-EXTERNAL-IP:3000
+ Grafana service port listens to port 3000. It is now accessible from outside the cluster via browser: SERVICE-EXTERNAL-IP:3000
 
