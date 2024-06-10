@@ -1,4 +1,4 @@
-**# monitoring-proj**
+# monitoring-proj
 In this task, I have installed the Prometheus&Grafana on an existing gcloud cluster. I have also created my own dashboard using custom querys as for my own cluster's monitoring needs.
 I have configured Variables on the project dashboard to make the dashboard more dynamic. 
 
