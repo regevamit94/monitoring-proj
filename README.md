@@ -14,7 +14,7 @@ As I said, I used an existing gcloud cluster. but if a new cluster in needed, th
 
 ## Setup
 - git clone https://github.com/regevamit94/monitoring-proj.git
-  before procceed, if you wish to access the grafana dashboard from outside the cluster, you should consider edit the "grafana-service.yaml"'s type to LoaBalancer, so your cloud provider will provide EXTERNAL-IP to the service. 
+- before procceed, if you wish to access the grafana dashboard from outside the cluster, you should consider edit the "grafana-service.yaml"'s type to LoaBalancer, so your cloud provider will provide EXTERNAL-IP to the service. 
 - kubectl apply -f monitoring-proj/manifests/setup/
 - kubectl apply -f monitoring-proj/manifests
 
