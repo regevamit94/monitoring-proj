@@ -7,7 +7,7 @@ As I said, I used an existing gcloud cluster. but if a new cluster in needed, th
 "gcloud container clusters create [CLUSTER_NAME] --zone=[ZONE] --num-nodes=[NUM_OF_NODES]"
 
 
-##Requirements
+## Requirements
 
 
 
